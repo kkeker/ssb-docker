@@ -9,6 +9,8 @@ During the image build process, the `ssb-server` command is added to the global 
 
 Use `docker run -d -v $PWD/config:/root/.ssb/config:ro ssb-server:latest` to mount the [configuration file](https://github.com/ssbc/ssb-config) to the image.
 
+
 **TODO:**
+
 Run ssb-server as non-root user.
 [This documentation](https://github.com/keymetrics/docker-pm2/issues/21) is not suitable for pm2.
